@@ -2,7 +2,7 @@
 // Panorama
 //=================================
 $(document).ready(function() {
-	"use strict";x
+	"use strict";
 	
 	var panorama = $("#panorama").ipanorama({
 		theme: "ipnrm-theme-default",
@@ -44,7 +44,7 @@ $(document).ready(function() {
 				compassNorthOffset: 0,
 				thumb: true,
 				thumbImage: "assets/images/thumb-01.jpg",
-				image: "assets/images/pan01.jpg",
+				image: "assets/images/livingroom.jpg",
 				hotSpots: [
 					{
 						yaw: 0, 
@@ -120,14 +120,14 @@ $(document).ready(function() {
 				title: "Second Scene",
 				thumb: true,
 				thumbImage: "assets/images/thumb-02.jpg",
-				image: "assets/images/pan02.jpg",
+				image: "assets/images/bathroom.jpg",
 				hotSpots: [
 					{
 						yaw: 0,
 						pitch: 0,
-						sceneId: "main",
+						sceneId: "third",
 						popoverShow: true,
-						popoverContent: "Go Back to The Main Scene",
+						popoverContent: "next",
 					}
 				],
 			},
@@ -137,7 +137,7 @@ $(document).ready(function() {
 				title: "Third Scene",
 				thumb: true,
 				thumbImage: "assets/images/thumb-03.jpg",
-				image: "assets/images/pan03",
+				image: "assets/images/bedroom.jpg",
 			},
 			fourth: {
 				zoom: 40,
@@ -145,7 +145,7 @@ $(document).ready(function() {
 				title: "Fourth Scene",
 				thumb: true,
 				thumbImage: "assets/images/thumb-04.jpg",
-				image: "assets/images/pan01.jpg",
+				image: "assets/images/entrance.jpg",
 			}
 		},
 	});
